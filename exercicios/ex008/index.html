@@ -7,14 +7,26 @@
     <title>Hyperlinks</title>
 </head>
 <body>
-    <h1>Hyperlinks</h1>
-    <hr>
-    <a href="https://www.w3schools.com" target="_self">Abrir na mesma aba</a>
-    <br>
-    <a href="https://www.w3schools.com" target="_blank">Abrir em um nova aba</a>
-    <br>
-    <a href="https://www.w3schools.com" target="_parent">Não sei ainda o que é</a>
-    <br>
-    <a href="https://www.w3schools.com" target="_top">Abrir em tela cheia(?)</a>
+    <h1>Como Inserir Hyperlinks</h1>
+<hr>
+<br>
+
+    <h2>Links Externos</h2>
+    <p>Clique <a href="https://www.w3schools.com/html" hreflang="en" target="_blank" rel="external" title="www.w3schools.com/html">aqui</a> para conferir os documentos oficiais da HTML!</p>
+    <p>Clique <a href="https://www.cursoemvideo.com" hreflang="pt-BR" target="_blank" rel="nofollow" title="www.cursoemvideo.com">aqui</a> para visitar a plataforma de cursos gratuitos do professor Gustavo Guanabara!</p>
+<br>
+    <h2>Links Internos</h2>
+
+    <ol type="1" start="2">
+        <li><strong>Página 002</strong> - <em>Clique</em> <a href="page002.html" hreflang="pt-BR" target="_self" rel="next" title="Página 002"><em>aqui</em></a>.</li>
+        <li><strong>Página 003</strong> - <em>Clique</em> <a href="page003/page003.html" hreflang="pt-BR" target="_self" rel="next" title="Página 003"><em>aqui</em></a>.</li>
+    </ol>
+<br>
+    <h2>Links de Download</h2>
+    <ul>
+        <li type="square">Para fazer o download do pdf da aula sobre hyperlinks, basta clicar <a href="pdf/10 - Ligações em toda parte.pdf" download="10 - Ligações em toda parte.pdf" type="application/pdf" title="Aula 10.pdf" target="_blank">aqui</a>.</li>
+        <!-- Geralmente os navegadores não realizam o download automático de arquivos .pdf-->
+         <li type="square">Para fazer o dowanload do arquivo.zip, basta clicar <a href="./pdf/meulivro.zip" download="meulivro.zip" type="application/zip">aqui</a>.</li>
+    </ul>
 </body>
 </html>
